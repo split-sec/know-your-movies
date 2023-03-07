@@ -1,22 +1,21 @@
 .placeholder {
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     margin: 10px;
+    background-color: blueviolet;
+    /* width: 500px; */
 }
 
 .poster {
-    width: 200px;
-    flex: 2;
+    width: 150px;
+    height: 200px;
 }
 
 .infosection {
     display: flex;
     flex-direction: column;
-    flex: 1;
     
     justify-content: space-between;
-    text-align: left;
 
     padding: 10px;
 }
@@ -24,4 +23,8 @@
 .title {
     font-size: 30px;
     font-weight: 700;
+}
+
+.year {
+    font-weight: 500;
 }
