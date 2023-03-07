@@ -1,7 +1,32 @@
+.cardSection {
+    display: flex;
+    margin: 10px;
+}
+
 .placeholder {
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 .poster {
     width: 200px;
+    flex: 2;
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    justify-content: space-between;
+    text-align: left;
+
+    padding: 10px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
 }
