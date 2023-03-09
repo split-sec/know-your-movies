@@ -9,11 +9,15 @@
 }
 
 .header {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Share', cursive;
+    color: black;
 }
 
 .rightSection {
     display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .rightSection div {

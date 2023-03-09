@@ -1,0 +1,13 @@
+.footer {
+    padding: 80px 40px;
+    background-color: #93BFCF;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer a {
+    color: blueviolet;
+}
