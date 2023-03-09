@@ -3,7 +3,7 @@
     flex-direction: column;
     margin: 10px;
     background-color: blueviolet;
-    /* width: 500px; */
+    width: 350px;
 }
 
 .poster {
@@ -18,10 +18,11 @@
     justify-content: space-between;
 
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 1rem;
     font-weight: 700;
 }
 

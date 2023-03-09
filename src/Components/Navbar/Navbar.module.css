@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEE9DA;
+    padding: 20px 10px;
+
+    font-family: 'Yeseva One', cursive;
+}
+
+.header {
+    font-size: 1.5rem;
+}
+
+.rightSection {
+    display: flex;
+}
+
+.rightSection div {
+    margin: 0 10px;
+}
