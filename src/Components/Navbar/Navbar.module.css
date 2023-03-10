@@ -2,18 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #EEE9DA;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    backdrop-filter: blur(20px);
     padding: 20px 10px;
 
-    font-family: 'Yeseva One', cursive;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
 }
 
 .header {
-    font-size: 80px;
+    font-size: 3rem;
     font-family: Hanson, sans-serif;
-    color: black;
     font-weight: 900;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
 }
 
 .rightSection {

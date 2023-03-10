@@ -1,24 +1,38 @@
 .placeholder {
     display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background-color: #6096B4;
-    width: 350px;
+    margin: 40px 20px 20px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(8px);
+    width: 500px;
+    position: relative;
+    color: white;
 }
 
 .poster {
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
 }
 
 .infosection {
     display: flex;
-    flex-direction: column;
-    
-    justify-content: space-between;
-
-    padding: 10px;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
+}
+
+.leftPart {
+    width: 82%; 
+    padding: 10px;
+}
+
+.rightPart p {
+    font-size: 32px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    position: absolute;
+
+    background: linear-gradient(red 20%, rgba(255, 255, 255, 0.212) 80%);
 }
 
 .title {
@@ -29,3 +43,10 @@
 .year {
     font-weight: 500;
 }
+
+.movie {
+    background-color: red;
+}
+
+
+/* linear-gradient(red 60%); */

@@ -7,9 +7,8 @@ export default function SearchSection() {
 
     return (
         <div className={ styles.section }>
-            <p className={ styles.searchPrompt }>Search for a movie...</p>
+            <p className={ styles.searchPrompt }>Search for any movie, TV show...</p>
             <input className= { styles.searchForm } placeholder="Type it here" onChange={ (name) => {
-                console.log(name.target.value);
                 setMovie(name.target.value)
             } }></input>
 

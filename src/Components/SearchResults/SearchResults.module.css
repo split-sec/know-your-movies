@@ -1,7 +1,6 @@
 .resultSection {
     display: flex;
     flex-wrap: wrap;
-    background-color: #BDCDD6;
     justify-content: space-evenly;
-    padding: 50px;
+    /* padding: 50px; */
 }
