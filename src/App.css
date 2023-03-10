@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Share:ital,wght@1,700&display=swap');
 
-@font-face {
-  font-family: Gunterz, sans-serif;
-  src: url('../public/Gunterz-Font-Family/Demo_Fonts/Fontspring-DEMO-gunterz-black.otf');
-}
-
 *, body {
   margin: 0;
   padding: 0;
