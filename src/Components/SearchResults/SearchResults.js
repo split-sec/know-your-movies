@@ -16,10 +16,10 @@ export default function SearchResults({ movieName }) {
                 return ;
             }
 
-            axios.get(`http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&s=${ movieName }&page=1`)
+            axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${ process.env.REACT_APP_MOVIEDB_API_KEY }&language=en-US&page=1&include_adult=false&query=${movieName}`)
                 .then((res) => {
                     console.log(res);
-                    setCards(res.data?.Search);
+                    setCards(res.data?.results);
                     setLoading(false);
                 })
                 .catch((err) => console.log(err + ' has been thrown!!!'));
