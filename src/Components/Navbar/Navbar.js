@@ -3,9 +3,9 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
     return(
         <div className={ styles.navbar }>
-            <div className={ styles.header }>
-                Know Your Movies
-            </div>
+            <h1 className={ styles.header }>
+                KNOW YOUR MOVIES
+            </h1>
 
             <div className={ styles.rightSection }>
                 <div>Docs</div>

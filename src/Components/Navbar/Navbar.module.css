@@ -9,9 +9,11 @@
 }
 
 .header {
-    font-size: 3rem;
-    font-family: 'Share', cursive;
+    font-size: 80px;
+    font-family: Gunterz, sans-serif;
     color: black;
+    font-weight: 900;
+    letter-spacing: -3px;
 }
 
 .rightSection {

@@ -1,0 +1,16 @@
+******************************************
+Currently working on
+- Adding media type with tilted text
+- Font set
+-
+******************************************
+
+- Better UI
+- Better Font set
+- Better Movie card
+
+- Add type of media
+- Infinite scroll and Pagination
+- Filter
+- Card on click should reveal more information
+- Improve efficiency by adding functionality to cancel API calls

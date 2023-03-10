@@ -3,11 +3,6 @@ import styles from './Card.module.css'
 export default function Card(props) {
     console.log(props);
     const {Poster, Title, Type, Year} = props;
-    console.log(`
-    Poster: ${Poster},
-    Title: ${Title},
-    Type: ${Type},
-    Year: ${Year}`);
 
     return (
         <div className={styles.placeholder}>
