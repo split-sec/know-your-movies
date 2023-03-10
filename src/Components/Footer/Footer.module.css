@@ -1,6 +1,7 @@
 .footer {
     padding: 40px;
-    background-color: #302e2e;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    backdrop-filter: blur(20px);
 
     font-family: Montserrat, sans-serif;
     font-size: 1rem;
@@ -10,5 +11,5 @@
 }
 
 .footer a {
-    color: blueviolet;
+    color: rgb(167, 74, 255);
 }
