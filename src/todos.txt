@@ -19,5 +19,8 @@ Yet to do
 - Card on click should reveal more information
 - Improve efficiency by adding functionality to cancel API calls
 - Adding responsiveness
+- Search bar space issue ()
+- Card design
+- Additional section
 
 ******************************************
